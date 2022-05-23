@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,td,th {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1em;
+	color: #006;
+	width: 800px;
+}
+body {
+    background-color: #DA8519;
+    margin-left: 21px;
+}
+h1, h3 {
+    letter-spacing: 0.2em;
+    word-spacing: 0.3em;
+    color: #2200B9;
+}
+p {
+    font-size: 0.85em;
+    letter-spacing: 0.2em;
+    color: #000000;
+}
+li {
+    font-size: 1em;
+    color: #000000;
+}
+h5 {
+    color: #2200B9;
+    font-size: large;
+}
+body p a {
+}
+
+ol li strong {
+    color: #2200B9;
+}
+
+a:link {
+	color: #060690;
+}
+a:visited {
+	color: #060690;
+}
+#zodiacRespondent {
+	margin-left: 120px;	
+	margin-bottom: 35px;
+}

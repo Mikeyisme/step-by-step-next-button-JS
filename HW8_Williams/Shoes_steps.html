@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>css id and javascript</title>
+<link href="mystyle.css" rel="stylesheet" type="text/css" />
+<script language="javascript">
+var shoes = new Array ("step1.jpg","step2.jpg","step3.jpg","step4.jpg","step5.jpg");
+var counter = 0;
+var myId;
+
+function changeShoes() {
+	myId = this.document.getElementById( 'shoes_new' );
+	if (counter==5) {
+		counter=0;
+	}
+	myId.src = shoes[counter];
+	counter=counter+1;
+}
+</script>
+</head>
+
+<body>
+<h1> How to Tie your shoes </h1>
+<p>This project will focus on how to tie running shoes as opposed to boots or other types of fancy shoes.</p>
+<h3>Items need:</h3>
+<p>1. Yours hands</p>
+<p>2. A pair of running shoes</p>
+<p>Click <a href="#" onclick="changeShoes()">here</a> to follow the next steps on how to tie your shoe, while reading the description below!</p>
+<p><img src="shoes.jpg" width="120" height="120" alt=""/ id="shoes_new"></p>
+<hr>
+<h5>Instructions (5 basic steps to tie your shoes)</h5>
+<ol>
+  <li><strong>Step 1 Unknot Shoelaces</strong>: Make sure the two ends of the shoelace are completely untangled and free of knots.</li>
+	<br>
+  <li><strong>Step 2 Create Overhand Knot</strong>: Start by forming an overhand knot with the two ends of the shoelace. This is done by crossing one end of the lace over the other and wrapping it once around the other end.</li>
+	<br>
+  <li><strong>Step 3 Finish the Basic Shoe Knot</strong>: Form a loop with one end of the shoelace by bringing the middle of the loose segment to the base of the overhead knot.</li>
+	<br>
+  <li><strong>Step 4 Create Double Knot</strong>: To ensure that your shoelace does not come undone, making a second overhand knot with the loops created in the previous step is highly recommended.</li>
+	<br>
+  <li><strong>Step 5 Complete!</strong>: Good job! you have now learned how to tie your shoes!Feel free to look back at the tutorial if you need to go over something again.</li>
+</ol>
+<p></p>
+</body>
+</html>
